@@ -116,10 +116,10 @@ def plot_ges_and_bw_over_years():
     # create a grid
     plt.grid()
     plt.legend(["Baden-Württemberg", "Deutschland"])
-    plt.show()
+    #plt.show()
 
     # make the image high resolution
-
+    plt.savefig("Alkohol_BW_Ges.png", dpi=500)
 
 #plot_bw_over_years()
 plot_ges_and_bw_over_years()
