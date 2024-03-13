@@ -23,6 +23,8 @@ with open("Bevölkerung.csv", "r", newline="", encoding="cp1252") as file: # que
         if jahreszahl not in bevölkerung:
             bevölkerung[jahreszahl] = {}
         bevölkerung[jahreszahl][bundesland] = int(anzahl)
+
+bevölkerung_gesamt = { jahr: sum(bevölkerung[jahr].values()) for jahr in bevölkerung }
 ###############################################################################################
 class DataPoint:
     def __init__(self, bundesland, jahr, anzahl):
@@ -78,10 +80,47 @@ def plot_bw_over_years():
     plt.xlabel("Jahr")
     plt.ylabel("Krankenhausaufenthalte pro 100.000 Einwohner")
     plt.title("Krankenhausaufenthalte wegen Alkohol in Baden-Württemberg")
+    # create a grid
+    plt.grid()
+
+    plt.show()
+
     # make the image high resolution
-    plt.savefig("Alkohol_BW.png", dpi=300)
+    #plt.savefig("Alkohol_BW.png", dpi=300)
+
+def plot_ges_and_bw_over_years():
+    data_bw = {}
+    for dp in datapoints:
+        if dp.bundesland == "Baden-Württemberg":
+            data_bw[dp.jahr] = dp.per_10000_inhabitants
+
+    data_ges = {}
+    for dp in datapoints:
+        if dp.jahr not in data_ges:
+            data_ges[dp.jahr] = 0
+        data_ges[dp.jahr] += dp.anzahl
+
+    for jahr in data_ges:
+        data_ges[jahr] = data_ges[jahr] / bevölkerung_gesamt[jahr] * 100000
+
+    import matplotlib.pyplot as plt
+    # create a plot with every fith year at the x-axis and the y-axis from 0 to 50
+    plt.plot(data_bw.keys(), data_bw.values(),"ro-")
+    plt.plot(data_ges.keys(), data_ges.values(),"bo-")
+    plt.xticks(list(data_bw.keys())[::5])
+    plt.yticks(range(0, 51, 5))
+    # make the line blue color with dots
+    plt.xlabel("Jahr")
+    plt.ylabel("Krankenhausaufenthalte pro 100.000 Einwohner")
+    plt.title("Alkoholbedingte Krankenhausaufenthalte unter 20 Jähriger")
+    # create a grid
+    plt.grid()
+    plt.legend(["Baden-Württemberg", "Deutschland"])
+    plt.show()
+
+    # make the image high resolution
 
 
+#plot_bw_over_years()
+plot_ges_and_bw_over_years()
 
-
-plot_bw_over_years()
