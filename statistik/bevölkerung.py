@@ -21,7 +21,4 @@ with open("Bevölkerung.csv", "r", newline="", encoding="cp1252") as file:
             bevölkerung[jahreszahl] = {}
         bevölkerung[jahreszahl][bundesland] = int(anzahl)
 
-for jahr in bevölkerung:
-    # print gesamtbevölkerung, format with 1000s separator
-    print(f"{jahr}: {sum(bevölkerung[jahr].values()):_}")
 

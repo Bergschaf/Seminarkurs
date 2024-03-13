@@ -1,32 +1,35 @@
 
 # TODO nach geschlechtern aufteilen
 
-# quelle https://www.demografie-portal.de/DE/Fakten/bevoelkerung-laender.html
-Bevölkerung = {
-    "Nordrhein-Westfalen": 18140000,
-    "Bayern": 13370000,
-    "Baden-Württemberg": 11280000,
-    "Niedersachsen": 8140000,
-    "Hessen": 6390000,
-    "Rheinland-Pfalz": 4160000,
-    "Sachsen": 4090000,
-    "Berlin": 3760000,
-    "Schleswig-Holstein": 2950000,
-    "Brandenburg": 2570000,
-    "Sachsen-Anhalt": 2190000,
-    "Thüringen": 2130000,
-    "Hamburg": 1890000,
-    "Mecklenburg-Vorpommern": 1630000,
-    "Saarland": 990000,
-    "Bremen": 680000
-}
+import csv
 
+bevölkerung = {
+
+}  # [jahr][bundesland] = anzahl
+jahreszahlen = ["2000", "2001", "2002", "2003", "2004", "2005", "2006", "2007", "2008", "2009", "2010", "2011", "2012",
+                "2013", "2014", "2015", "2016", "2017", "2018", "2019", "2020", "2021", "2022"]
+rows = []
+with open("Bevölkerung.csv", "r", newline="", encoding="cp1252") as file: # quelle 12411-0011:
+    reader = csv.reader(file, delimiter=";")
+    header = next(reader)
+    print(header)
+    for row in reader:
+        # throw out the 5th to the 12th column
+        jahreszahl = row[0][-4:]
+        if jahreszahl not in jahreszahlen:
+            continue
+        bundesland = row[1]
+        anzahl = int(row[-1])
+        if jahreszahl not in bevölkerung:
+            bevölkerung[jahreszahl] = {}
+        bevölkerung[jahreszahl][bundesland] = int(anzahl)
+###############################################################################################
 class DataPoint:
     def __init__(self, bundesland, jahr, anzahl):
         self.bundesland = bundesland
         self.jahr = jahr
         self.anzahl = anzahl
-        self.per_10000_inhabitants = anzahl / Bevölkerung[bundesland] * 100000
+        self.per_10000_inhabitants = anzahl / bevölkerung[jahr][bundesland] * 100000
 
     def __repr__(self):
         return f"{self.bundesland} {self.jahr}: {self.anzahl} ({self.per_10000_inhabitants:.2f} pro 100.000 Einwohner)"
@@ -43,7 +46,6 @@ with open("Alkohol_statistik.csv", "r", newline="",encoding="cp1252") as file:
         rows.append(row[:4] + row[12:])
         print(rows[-1])
 
-jahreszahlen = ["2019","2020", "2021", "2022"]
 datapoints = []
 for row in rows:
     jahreszahl = row[0]
@@ -60,3 +62,26 @@ for row in rows:
     datapoints.append(datapoint)
     if bundesland == "Baden-Württemberg":
         print(datapoint)
+
+def plot_bw_over_years():
+    data = {}
+    for dp in datapoints:
+        if dp.bundesland == "Baden-Württemberg":
+            data[dp.jahr] = dp.per_10000_inhabitants
+
+    import matplotlib.pyplot as plt
+    # create a plot with every fith year at the x-axis and the y-axis from 0 to 50
+    plt.plot(data.keys(), data.values(),"ro-")
+    plt.xticks(list(data.keys())[::5])
+    plt.yticks(range(0, 51, 5))
+    # make the line blue color with dots
+    plt.xlabel("Jahr")
+    plt.ylabel("Krankenhausaufenthalte pro 100.000 Einwohner")
+    plt.title("Krankenhausaufenthalte wegen Alkohol in Baden-Württemberg")
+    # make the image high resolution
+    plt.savefig("Alkohol_BW.png", dpi=300)
+
+
+
+
+plot_bw_over_years()
