@@ -1,0 +1,202 @@
+GENESIS-Tabelle: 23131-0011
+Krankenhauspatienten: Bundesländer, Jahre, Geschlecht,;;;;;;;;;;;;;;;
+Altersgruppen, Hauptdiagnose ICD-10 (1-3-Steller Hierarchie);;;;;;;;;;;;;;;
+Diagnosen der Krankenhauspatienten;;;;;;;;;;;;;;;
+Entlassene Patienten (Anzahl);;;;;;;;;;;;;;;
+;;;;männlich;männlich;männlich;männlich;weiblich;weiblich;weiblich;weiblich;Insgesamt;Insgesamt;Insgesamt;Insgesamt
+;;;;10 bis unter 15 Jahre;15 bis unter 18 Jahre;18 bis unter 20 Jahre;Insgesamt;10 bis unter 15 Jahre;15 bis unter 18 Jahre;18 bis unter 20 Jahre;Insgesamt;10 bis unter 15 Jahre;15 bis unter 18 Jahre;18 bis unter 20 Jahre;Insgesamt
+2019;Baden-Württemberg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;148;747;514;23829;237;593;305;8998;385;1340;819;32827
+2019;Baden-Württemberg;ICD10-T51;    Toxische Wirkung von Alkohol;1;11;5;70;1;7;2;43;2;18;7;113
+2019;Baden-Württemberg;;Insgesamt;16162;13230;10104;1084244;15054;15933;11722;1150936;31216;29163;21826;2235187
+2019;Bayern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;270;1330;994;32366;299;847;542;13499;569;2177;1536;45865
+2019;Bayern;ICD10-T51;    Toxische Wirkung von Alkohol;-;9;7;93;2;3;2;41;2;12;9;134
+2019;Bayern;;Insgesamt;20940;18113;14922;1487353;20718;22637;17515;1607236;41658;40750;32437;3094589
+2019;Berlin;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;19;105;96;9207;32;108;64;3241;51;213;160;12448
+2019;Berlin;ICD10-T51;    Toxische Wirkung von Alkohol;5;10;6;178;1;9;5;74;6;19;11;252
+2019;Berlin;;Insgesamt;5608;4256;3400;438904;5194;5171;4171;476003;10802;9427;7571;914907
+2019;Brandenburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;59;167;89;7195;56;124;39;2246;115;291;128;9441
+2019;Brandenburg;ICD10-T51;    Toxische Wirkung von Alkohol;5;22;-;40;15;5;1;30;20;27;1;70
+2019;Brandenburg;;Insgesamt;4285;2938;1845;282185;4648;4226;2418;291569;8933;7164;4263;573754
+2019;Bremen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;11;74;22;2019;20;75;12;725;31;149;34;2744
+2019;Bremen;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;5;-;-;-;2;-;-;-;7
+2019;Bremen;;Insgesamt;1456;1261;880;96768;1453;1721;1375;106668;2909;2982;2255;203436
+2019;Hamburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;22;95;29;4180;27;52;14;1547;49;147;43;5727
+2019;Hamburg;ICD10-T51;    Toxische Wirkung von Alkohol;-;7;-;20;1;1;-;6;1;8;-;26
+2019;Hamburg;;Insgesamt;4245;2994;2108;249342;4057;3640;2826;271536;8302;6634;4935;520889
+2019;Hessen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;86;409;239;13732;109;293;144;5621;195;702;383;19354
+2019;Hessen;ICD10-T51;    Toxische Wirkung von Alkohol;-;3;2;39;1;1;1;25;1;4;3;64
+2019;Hessen;;Insgesamt;8930;7136;5822;669329;8983;9867;7811;740535;17914;17003;13634;1409908
+2019;Mecklenburg-Vorpommern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;55;230;74;6055;83;126;31;1738;138;356;105;7793
+2019;Mecklenburg-Vorpommern;ICD10-T51;    Toxische Wirkung von Alkohol;-;5;1;17;1;3;-;11;1;8;1;28
+2019;Mecklenburg-Vorpommern;;Insgesamt;3276;2363;1479;210625;3494;3157;1886;208773;6770;5520;3365;419398
+2019;Niedersachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;93;503;399;21609;164;390;231;7933;257;893;630;29542
+2019;Niedersachsen;ICD10-T51;    Toxische Wirkung von Alkohol;-;17;1;68;5;7;1;49;5;24;2;117
+2019;Niedersachsen;;Insgesamt;11880;9632;8106;833604;11944;13828;11003;909083;23824;23460;19109;1742687
+2019;Nordrhein-Westfalen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;234;1532;845;46947;412;1157;484;18034;646;2689;1329;64981
+2019;Nordrhein-Westfalen;ICD10-T51;    Toxische Wirkung von Alkohol;7;23;7;145;5;17;3;90;12;40;10;235
+2019;Nordrhein-Westfalen;;Insgesamt;31991;25991;20240;2220554;32813;37405;28752;2480773;64804;63396;48992;4701327
+2019;Rheinland-Pfalz;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;70;393;264;9621;110;247;171;3793;180;640;435;13414
+2019;Rheinland-Pfalz;ICD10-T51;    Toxische Wirkung von Alkohol;-;9;2;43;2;5;-;15;2;14;2;58
+2019;Rheinland-Pfalz;;Insgesamt;6073;5403;4431;462565;6279;7110;6011;509307;12352;12513;10442;971872
+2019;Saarland;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;19;108;97;2739;35;85;61;1148;54;193;158;3887
+2019;Saarland;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;1;7;-;-;-;-;-;-;1;7
+2019;Saarland;;Insgesamt;1879;1491;1126;138837;1781;2073;1673;150204;3660;3564;2799;289046
+2019;Sachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;107;435;222;11553;141;315;119;3884;248;750;341;15437
+2019;Sachsen;ICD10-T51;    Toxische Wirkung von Alkohol;2;4;-;19;-;4;-;12;2;8;-;31
+2019;Sachsen;;Insgesamt;7949;5659;3498;494710;7936;7270;4383;505021;15885;12929;7881;999731
+2019;Sachsen-Anhalt;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;74;250;144;7246;97;133;64;2159;171;383;208;9405
+2019;Sachsen-Anhalt;ICD10-T51;    Toxische Wirkung von Alkohol;1;2;1;10;3;1;-;9;4;3;1;19
+2019;Sachsen-Anhalt;;Insgesamt;4855;3283;2137;287067;5070;4502;3024;296648;9925;7785;5161;583715
+2019;Schleswig-Holstein;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;30;220;149;7925;63;155;85;3124;93;375;234;11049
+2019;Schleswig-Holstein;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;19;1;2;2;14;1;2;2;33
+2019;Schleswig-Holstein;;Insgesamt;3641;3602;2878;289958;3859;4500;3671;318490;7500;8102;6549;608448
+2019;Thüringen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;64;223;115;6579;65;144;48;2108;129;367;163;8687
+2019;Thüringen;ICD10-T51;    Toxische Wirkung von Alkohol;4;4;-;15;7;3;-;17;11;7;-;32
+2019;Thüringen;;Insgesamt;4484;3295;1981;289825;4526;4291;2755;297065;9010;7586;4736;586890
+2020;Baden-Württemberg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;97;537;274;20041;153;372;159;7345;250;909;433;27386
+2020;Baden-Württemberg;ICD10-T51;    Toxische Wirkung von Alkohol;1;2;1;45;4;3;4;36;5;5;5;81
+2020;Baden-Württemberg;;Insgesamt;13115;11202;7651;956512;12470;13206;9389;1006831;25586;24409;17040;1963358
+2020;Bayern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;142;690;494;25531;221;471;260;10255;363;1161;754;35786
+2020;Bayern;ICD10-T51;    Toxische Wirkung von Alkohol;1;1;-;44;3;2;3;44;4;3;3;88
+2020;Bayern;;Insgesamt;16567;14242;10796;1275782;16271;18360;13492;1374918;32838;32602;24288;2650700
+2020;Berlin;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;20;96;42;7854;27;76;34;2826;47;172;76;10680
+2020;Berlin;ICD10-T51;    Toxische Wirkung von Alkohol;-;1;-;22;1;2;-;15;1;3;-;37
+2020;Berlin;;Insgesamt;4606;3621;2591;386462;4322;4439;3593;419766;8928;8060;6184;806228
+2020;Brandenburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;31;124;59;6186;53;84;40;1906;84;208;99;8092
+2020;Brandenburg;ICD10-T51;    Toxische Wirkung von Alkohol;1;10;-;20;4;11;-;23;5;21;-;43
+2020;Brandenburg;;Insgesamt;3420;2448;1431;241256;3708;3494;1863;247091;7128;5942;3294;488347
+2020;Bremen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;7;38;9;1787;15;26;4;551;22;64;13;2338
+2020;Bremen;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;2;-;-;-;-;-;-;-;2
+2020;Bremen;;Insgesamt;1255;935;645;83765;1127;1324;1017;92154;2382;2259;1662;175919
+2020;Hamburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;15;55;4;3694;15;59;7;1370;30;114;11;5064
+2020;Hamburg;ICD10-T51;    Toxische Wirkung von Alkohol;1;5;-;11;2;1;-;4;3;6;-;15
+2020;Hamburg;;Insgesamt;3626;2662;1655;219103;3478;3160;2289;239023;7104;5822;3944;458126
+2020;Hessen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;49;227;139;11439;74;190;66;4484;123;417;205;15924
+2020;Hessen;ICD10-T51;    Toxische Wirkung von Alkohol;1;3;-;28;4;1;1;21;5;4;1;49
+2020;Hessen;;Insgesamt;7036;5854;4416;580452;6983;8035;5984;639078;14019;13889;10400;1219533
+2020;Mecklenburg-Vorpommern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;46;150;63;5544;63;91;30;1502;109;241;93;7046
+2020;Mecklenburg-Vorpommern;ICD10-T51;    Toxische Wirkung von Alkohol;1;1;-;9;-;-;-;6;1;1;-;15
+2020;Mecklenburg-Vorpommern;;Insgesamt;2637;1957;1217;189264;2743;2664;1710;185436;5380;4621;2927;374700
+2020;Niedersachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;74;292;234;17295;80;208;95;6022;154;500;329;23317
+2020;Niedersachsen;ICD10-T51;    Toxische Wirkung von Alkohol;2;7;-;39;3;8;1;39;5;15;1;78
+2020;Niedersachsen;;Insgesamt;9309;7857;6189;728043;9638;11020;9083;796549;18947;18877;15272;1524592
+2020;Nordrhein-Westfalen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;159;879;435;40219;365;749;286;15225;524;1628;721;55444
+2020;Nordrhein-Westfalen;ICD10-T51;    Toxische Wirkung von Alkohol;6;20;2;121;9;31;4;105;15;51;6;226
+2020;Nordrhein-Westfalen;;Insgesamt;25279;20741;15372;1929141;25942;29366;22578;2132838;51221;50107;37950;4061979
+2020;Rheinland-Pfalz;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;57;229;151;8457;76;152;67;3059;133;381;218;11516
+2020;Rheinland-Pfalz;ICD10-T51;    Toxische Wirkung von Alkohol;-;3;1;19;1;1;1;15;1;4;2;34
+2020;Rheinland-Pfalz;;Insgesamt;4688;4012;3393;399522;4808;5710;4470;433033;9496;9722;7863;832555
+2020;Saarland;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;21;75;51;2273;21;50;26;892;42;125;77;3165
+2020;Saarland;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;5;-;-;-;1;-;-;-;6
+2020;Saarland;;Insgesamt;1591;1181;958;121975;1354;1573;1184;127888;2945;2754;2142;249863
+2020;Sachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;86;346;176;10013;131;248;93;3445;217;594;269;13458
+2020;Sachsen;ICD10-T51;    Toxische Wirkung von Alkohol;-;5;1;18;1;2;1;10;1;7;2;28
+2020;Sachsen;;Insgesamt;6847;4944;2931;444076;6596;6527;3729;449229;13443;11471;6660;893305
+2020;Sachsen-Anhalt;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;46;158;92;6565;73;111;38;1891;119;269;130;8456
+2020;Sachsen-Anhalt;ICD10-T51;    Toxische Wirkung von Alkohol;1;-;-;5;1;3;-;9;2;3;-;14
+2020;Sachsen-Anhalt;;Insgesamt;3919;2756;1690;255527;3959;3554;2548;259699;7878;6310;4238;515226
+2020;Schleswig-Holstein;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;24;156;94;6960;45;103;45;2641;69;259;139;9601
+2020;Schleswig-Holstein;ICD10-T51;    Toxische Wirkung von Alkohol;1;2;-;12;-;-;-;4;1;2;-;16
+2020;Schleswig-Holstein;;Insgesamt;2901;2815;2226;257440;3112;4024;2971;282629;6013;6839;5197;540069
+2020;Thüringen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;42;133;78;5406;48;95;50;1646;90;228;128;7052
+2020;Thüringen;ICD10-T51;    Toxische Wirkung von Alkohol;1;6;1;32;2;2;-;12;3;8;1;44
+2020;Thüringen;;Insgesamt;3632;2559;1702;254102;3473;3505;2297;256540;7105;6064;3999;510642
+2021;Baden-Württemberg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;84;464;259;18999;151;354;173;7213;235;818;432;26212
+2021;Baden-Württemberg;ICD10-T51;    Toxische Wirkung von Alkohol;-;4;-;39;2;5;2;22;2;9;2;61
+2021;Baden-Württemberg;;Insgesamt;12782;10841;7582;951327;12501;13875;9435;1017210;25283;24716;17017;1968537
+2021;Bayern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;139;634;452;23857;256;502;257;10269;395;1136;709;34126
+2021;Bayern;ICD10-T51;    Toxische Wirkung von Alkohol;2;4;2;31;1;2;2;25;3;6;4;56
+2021;Bayern;;Insgesamt;16232;13740;10528;1256706;17148;18354;13375;1373864;33380;32094;23903;2630570
+2021;Berlin;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;18;101;42;7214;44;83;33;2555;62;184;75;9769
+2021;Berlin;ICD10-T51;    Toxische Wirkung von Alkohol;-;3;-;35;-;5;1;12;-;8;1;47
+2021;Berlin;;Insgesamt;4467;3485;2476;368210;4348;4486;3342;401119;8815;7971;5818;769329
+2021;Brandenburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;44;121;52;5684;49;79;26;1821;93;200;78;7505
+2021;Brandenburg;ICD10-T51;    Toxische Wirkung von Alkohol;1;6;-;18;6;1;-;11;7;7;-;29
+2021;Brandenburg;;Insgesamt;3156;2390;1325;232726;3345;3402;1874;239384;6501;5792;3199;472110
+2021;Bremen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;4;27;13;1614;8;31;5;492;12;58;18;2106
+2021;Bremen;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;1;-;-;-;-;-;-;-;1
+2021;Bremen;;Insgesamt;1155;959;670;84206;1201;1449;1001;92529;2356;2408;1671;176735
+2021;Hamburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;9;63;10;3750;26;39;7;1396;35;102;17;5146
+2021;Hamburg;ICD10-T51;    Toxische Wirkung von Alkohol;-;3;-;10;2;-;-;4;2;3;-;14
+2021;Hamburg;;Insgesamt;3464;2757;1631;218746;3576;3433;2381;242412;7040;6190;4012;461158
+2021;Hessen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;40;225;146;11802;86;204;86;4480;126;429;232;16282
+2021;Hessen;ICD10-T51;    Toxische Wirkung von Alkohol;1;1;2;33;-;-;2;22;1;1;4;55
+2021;Hessen;;Insgesamt;6862;5845;4477;582038;7398;8566;6165;646952;14260;14411;10642;1228994
+2021;Mecklenburg-Vorpommern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;40;147;50;5244;62;103;27;1433;102;250;77;6677
+2021;Mecklenburg-Vorpommern;ICD10-T51;    Toxische Wirkung von Alkohol;1;4;-;10;2;2;-;9;3;6;-;19
+2021;Mecklenburg-Vorpommern;;Insgesamt;2615;1838;1127;185065;2813;2652;1745;182800;5428;4490;2872;367865
+2021;Niedersachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;50;326;234;17040;106;246;106;6088;156;572;340;23128
+2021;Niedersachsen;ICD10-T51;    Toxische Wirkung von Alkohol;1;-;-;28;2;3;-;20;3;3;-;48
+2021;Niedersachsen;;Insgesamt;9225;7709;6162;733055;9907;11596;9026;806831;19132;19305;15188;1539886
+2021;Nordrhein-Westfalen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;150;865;423;38706;303;694;303;14715;453;1559;726;53421
+2021;Nordrhein-Westfalen;ICD10-T51;    Toxische Wirkung von Alkohol;1;19;3;111;11;13;2;91;12;32;5;202
+2021;Nordrhein-Westfalen;;Insgesamt;24386;20673;14980;1939901;26415;29929;22509;2165065;50801;50602;37489;4104966
+2021;Rheinland-Pfalz;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;25;180;140;7719;55;134;60;2797;80;314;200;10516
+2021;Rheinland-Pfalz;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;15;-;3;-;11;-;3;-;26
+2021;Rheinland-Pfalz;;Insgesamt;4367;4053;3228;394380;4933;5241;4279;428996;9300;9294;7507;823376
+2021;Saarland;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;9;65;53;2132;22;49;30;895;31;114;83;3027
+2021;Saarland;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;5;-;-;-;2;-;-;-;7
+2021;Saarland;;Insgesamt;1473;1236;917;119509;1457;1523;1383;128039;2930;2759;2300;247548
+2021;Sachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;75;331;139;9300;107;234;97;3315;182;565;236;12615
+2021;Sachsen;ICD10-T51;    Toxische Wirkung von Alkohol;2;5;-;18;3;7;-;18;5;12;-;36
+2021;Sachsen;;Insgesamt;5965;4664;2708;418978;6155;6253;3517;424563;12120;10917;6225;843541
+2021;Sachsen-Anhalt;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;33;147;83;5864;72;96;29;1766;105;243;112;7630
+2021;Sachsen-Anhalt;ICD10-T51;    Toxische Wirkung von Alkohol;2;4;1;12;2;2;1;7;4;6;2;19
+2021;Sachsen-Anhalt;;Insgesamt;3527;2591;1571;242529;3748;3683;2169;243822;7275;6274;3740;486351
+2021;Schleswig-Holstein;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;22;144;96;6584;37;83;41;2594;59;227;137;9178
+2021;Schleswig-Holstein;ICD10-T51;    Toxische Wirkung von Alkohol;-;1;1;8;-;1;1;6;-;2;2;14
+2021;Schleswig-Holstein;;Insgesamt;2798;2672;2350;259801;3172;4317;3099;287399;5970;6989;5449;547200
+2021;Thüringen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;42;165;110;5404;44;112;29;1702;86;277;139;7106
+2021;Thüringen;ICD10-T51;    Toxische Wirkung von Alkohol;1;2;2;37;1;2;-;22;2;4;2;59
+2021;Thüringen;;Insgesamt;3468;2482;1503;245164;3369;3523;2105;244219;6837;6005;3608;489383
+2022;Baden-Württemberg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;72;428;295;18386;118;327;149;6890;190;755;444;25276
+2022;Baden-Württemberg;ICD10-T51;    Toxische Wirkung von Alkohol;2;3;1;28;3;6;1;24;5;9;2;52
+2022;Baden-Württemberg;;Insgesamt;13144;11097;7732;946414;12596;13271;9037;998194;25740;24368;16769;1944609
+2022;Bayern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;113;619;521;24685;176;480;287;10313;289;1099;808;34998
+2022;Bayern;ICD10-T51;    Toxische Wirkung von Alkohol;2;5;2;45;3;5;2;27;5;10;4;72
+2022;Bayern;;Insgesamt;17090;14380;10936;1284173;17456;18000;13378;1375702;34546;32380;24314;2659875
+2022;Berlin;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;16;66;43;7489;26;72;52;2579;42;138;95;10068
+2022;Berlin;ICD10-T51;    Toxische Wirkung von Alkohol;-;3;1;25;1;7;2;16;1;10;3;41
+2022;Berlin;;Insgesamt;4702;3506;2516;377438;4329;4370;3389;405122;9031;7876;5905;782560
+2022;Brandenburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;51;136;55;5951;43;67;30;1843;94;203;85;7794
+2022;Brandenburg;ICD10-T51;    Toxische Wirkung von Alkohol;5;8;-;19;3;4;-;11;8;12;-;30
+2022;Brandenburg;;Insgesamt;3354;2443;1420;235332;3631;3285;1964;238792;6985;5728;3384;474124
+2022;Bremen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;6;30;7;1324;14;21;5;485;20;51;12;1809
+2022;Bremen;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;-;-;-;-;-;-;-;-;-
+2022;Bremen;;Insgesamt;1075;951;617;78933;1109;1204;973;88236;2184;2155;1590;167169
+2022;Hamburg;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;5;29;16;3832;9;33;10;1323;14;62;26;5155
+2022;Hamburg;ICD10-T51;    Toxische Wirkung von Alkohol;2;3;-;9;-;4;1;7;2;7;1;16
+2022;Hamburg;;Insgesamt;3412;2789;1619;216649;3427;3378;2433;238742;6839;6167;4052;455391
+2022;Hessen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;30;217;119;11804;53;184;94;4469;83;401;213;16274
+2022;Hessen;ICD10-T51;    Toxische Wirkung von Alkohol;-;1;-;33;1;3;1;26;1;4;1;59
+2022;Hessen;;Insgesamt;7338;6181;4568;593949;7815;8624;6323;650969;15153;14805;10891;1244922
+2022;Mecklenburg-Vorpommern;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;33;166;54;5148;83;106;36;1551;116;272;90;6699
+2022;Mecklenburg-Vorpommern;ICD10-T51;    Toxische Wirkung von Alkohol;3;13;-;21;2;11;-;16;5;24;-;37
+2022;Mecklenburg-Vorpommern;;Insgesamt;2890;2046;1125;187725;2987;2869;1740;183076;5877;4915;2865;370801
+2022;Niedersachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;67;270;214;16805;78;255;135;6148;145;525;349;22953
+2022;Niedersachsen;ICD10-T51;    Toxische Wirkung von Alkohol;-;8;2;41;1;6;-;20;1;14;2;61
+2022;Niedersachsen;;Insgesamt;9321;7712;6073;733910;9681;11030;8585;800957;19002;18742;14658;1534867
+2022;Nordrhein-Westfalen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;135;784;441;39194;221;711;306;14804;356;1495;747;53998
+2022;Nordrhein-Westfalen;ICD10-T51;    Toxische Wirkung von Alkohol;5;12;10;104;8;15;4;72;13;27;14;176
+2022;Nordrhein-Westfalen;;Insgesamt;25955;20848;15100;1957734;26884;29031;21115;2160059;52839;49879;36215;4117793
+2022;Rheinland-Pfalz;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;36;222;140;7759;42;159;80;3017;78;381;220;10776
+2022;Rheinland-Pfalz;ICD10-T51;    Toxische Wirkung von Alkohol;-;1;-;12;1;-;1;13;1;1;1;25
+2022;Rheinland-Pfalz;;Insgesamt;4814;4164;3130;401775;4978;5446;4083;432995;9792;9610;7213;834770
+2022;Saarland;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;7;57;43;2282;21;41;26;862;28;98;69;3144
+2022;Saarland;ICD10-T51;    Toxische Wirkung von Alkohol;-;-;-;4;-;-;-;4;-;-;-;8
+2022;Saarland;;Insgesamt;1536;1211;885;118641;1457;1466;1171;124961;2993;2677;2056;243602
+2022;Sachsen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;79;353;187;9605;123;237;102;3568;202;590;289;13173
+2022;Sachsen;ICD10-T51;    Toxische Wirkung von Alkohol;2;4;-;14;2;3;-;10;4;7;-;24
+2022;Sachsen;;Insgesamt;6803;4916;2860;427046;6687;6411;3964;427600;13490;11327;6824;854646
+2022;Sachsen-Anhalt;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;48;158;78;5947;72;129;40;1904;120;287;118;7851
+2022;Sachsen-Anhalt;ICD10-T51;    Toxische Wirkung von Alkohol;-;4;-;6;-;1;-;4;-;5;-;10
+2022;Sachsen-Anhalt;;Insgesamt;3760;2626;1612;244033;3984;3709;2211;243881;7744;6335;3823;487914
+2022;Schleswig-Holstein;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;22;118;89;6254;32;125;42;2393;54;243;131;8647
+2022;Schleswig-Holstein;ICD10-T51;    Toxische Wirkung von Alkohol;-;1;1;7;2;-;-;7;2;1;1;14
+2022;Schleswig-Holstein;;Insgesamt;2798;2729;2065;252352;3155;3836;2899;277539;5953;6565;4964;529891
+2022;Thüringen;ICD10-F10;    Psychische und Verhaltensstörungen durch Alkohol;44;188;91;5572;57;128;46;1800;101;316;137;7372
+2022;Thüringen;ICD10-T51;    Toxische Wirkung von Alkohol;-;2;1;18;-;1;1;12;-;3;2;30
+2022;Thüringen;;Insgesamt;3824;2852;1627;253160;3870;3698;2074;249491;7694;6550;3701;502651
+__________
+© Statistisches Bundesamt (Destatis), 2024
+Stand: 13.03.2024 / 17:59:03
