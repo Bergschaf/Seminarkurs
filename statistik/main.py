@@ -190,7 +190,7 @@ def bar_chart_avg_bundesländer_avg_more():
 
     plt.barh(list(data.keys()), data.values())
     plt.xlabel("Krankenhausaufenthalte pro 100.000 Einwohner\n"
-               "Durchschnitt der letzten 5 Jahre")
+               "Durchschnitt der letzten 15 Jahre")
     plt.title("Alkoholbedingte Krankenhausaufenthalte")
     # make the labels readable
     plt.tight_layout()
