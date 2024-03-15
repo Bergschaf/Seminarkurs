@@ -121,6 +121,90 @@ def plot_ges_and_bw_over_years():
     # make the image high resolution
     plt.savefig("Alkohol_BW_Ges.png", dpi=500)
 
-#plot_bw_over_years()
-plot_ges_and_bw_over_years()
+def bar_chart_avg_bundesländer():
+    """
+    Durchschnitt über die letzten 5 Jahre
+    :return:
+    """
+    data = {}
+    used_years = ["2022", "2021", "2020", "2019", "2018"]
+    for dp in datapoints:
+        if dp.bundesland not in data:
+            data[dp.bundesland] = []
+        if dp.jahr not in used_years:
+            continue
+        data[dp.bundesland].append(dp.per_10000_inhabitants)
 
+    for bundesland in data:
+        data[bundesland] = sum(data[bundesland]) / len(data[bundesland])
+    # sort by value
+    data = dict(sorted(data.items(), key=lambda item: item[1]))
+    import matplotlib.pyplot as plt
+    # make the bars horizontal
+    # make the grid appear in the background
+    plt.grid(axis="x")
+    # use .set_axisbelow(True) to make the grid appear in the background
+    plt.gca().set_axisbelow(True)
+
+    plt.barh(list(data.keys()), data.values())
+    plt.xlabel("Krankenhausaufenthalte pro 100.000 Einwohner\n"
+               "Durchschnitt der letzten 5 Jahre")
+    plt.title("Alkoholbedingte Krankenhausaufenthalte")
+    # make the labels readable
+    plt.tight_layout()
+    # add average line
+    avg = sum(data.values()) / len(data)
+    plt.axvline(avg, color="r", linestyle="--")
+    plt.text(avg, 0, f"Ø: {avg:.2f}", color="r", verticalalignment="center")
+
+    # add grid
+    #plt.show()
+    # make the image high resolution
+    plt.savefig("Alkohol_Bundesländer_avg_5_Jahre.png", dpi=500)
+
+
+def bar_chart_avg_bundesländer_avg_more():
+    """
+    Durchschnitt über die letzten 15
+    :return:
+    """
+    data = {}
+    used_years = ["2022", "2021", "2020", "2019", "2018", "2017", "2016", "2015", "2014", "2013", "2012", "2011", "2010", "2009", "2008"]
+    for dp in datapoints:
+        if dp.bundesland not in data:
+            data[dp.bundesland] = []
+        if dp.jahr not in used_years:
+            continue
+        data[dp.bundesland].append(dp.per_10000_inhabitants)
+
+    for bundesland in data:
+        data[bundesland] = sum(data[bundesland]) / len(data[bundesland])
+    # sort by value
+    data = dict(sorted(data.items(), key=lambda item: item[1]))
+    import matplotlib.pyplot as plt
+    # make the bars horizontal
+    # make the grid appear in the background
+    plt.grid(axis="x")
+    # use .set_axisbelow(True) to make the grid appear in the background
+    plt.gca().set_axisbelow(True)
+
+    plt.barh(list(data.keys()), data.values())
+    plt.xlabel("Krankenhausaufenthalte pro 100.000 Einwohner\n"
+               "Durchschnitt der letzten 5 Jahre")
+    plt.title("Alkoholbedingte Krankenhausaufenthalte")
+    # make the labels readable
+    plt.tight_layout()
+    # add average line
+    avg = sum(data.values()) / len(data)
+    plt.axvline(avg, color="r", linestyle="--")
+    plt.text(avg, 0, f"Ø: {avg:.2f}", color="r", verticalalignment="center")
+
+    # add grid
+    #plt.show()
+    # make the image high resolution
+    plt.savefig("Alkohol_Bundesländer_avg_15_Jahre.png", dpi=500)
+
+#plot_bw_over_years()
+#plot_ges_and_bw_over_years()
+#bar_chart_avg_bundesländer()
+bar_chart_avg_bundesländer_avg_more()
