@@ -1,4 +1,4 @@
-.aux
-.log
-.dvi
-.odt#
+*.aux
+*.log
+*.dvi
+*.odt#
