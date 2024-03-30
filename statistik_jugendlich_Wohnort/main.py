@@ -45,11 +45,11 @@ with open("Alkohol_statistik.csv", "r", newline="",encoding="cp1252") as file:
     print(header)
     for row in reader:
         # throw out the 5th to the 12th column
-        rows.append(row[:4] + row[12:])
-        print(rows[-1])
+        rows.append(row[:3] + row[12:])
 
 datapoints = []
 for row in rows:
+
     jahreszahl = row[0]
     if jahreszahl not in jahreszahlen:
         continue
@@ -58,11 +58,13 @@ for row in rows:
     if diagnose != "ICD10-F10":
         continue
 
-    anzahl = sum([int(x) for x in row[4:-1]])
+    if bundesland == "Ausland" or bundesland == "unbekannt":
+        continue
+    anzahl = sum([int(x) for x in row[3:-1]])
     datapoint = DataPoint(bundesland, jahreszahl, anzahl)
 
     datapoints.append(datapoint)
-    if bundesland == "Baden-Württemberg":
+    if bundesland == "Saarland":
         print(datapoint)
 
 def plot_bw_over_years():
@@ -127,7 +129,7 @@ def bar_chart_avg_bundesländer():
     :return:
     """
     data = {}
-    used_years = ["2022", "2021", "2020", "2019", "2018"]
+    used_years = ["2022", "2021", "2020", "2019"]
     for dp in datapoints:
         if dp.bundesland not in data:
             data[dp.bundesland] = []
@@ -160,7 +162,7 @@ def bar_chart_avg_bundesländer():
     # add grid
     #plt.show()
     # make the image high resolution
-    plt.savefig("Alkohol_Bundesländer_avg_5_Jahre.png", dpi=500)
+    plt.savefig("Alkohol_Wohnort_avg_5_Jahre.png", dpi=500)
 
 
 def bar_chart_avg_bundesländer_avg_more():
@@ -202,7 +204,7 @@ def bar_chart_avg_bundesländer_avg_more():
     # add grid
     #plt.show()
     # make the image high resolution
-    plt.savefig("Alkohol_Bundesländer_avg_15_Jahre.png", dpi=500)
+    plt.savefig("Alkohol_Wohnort_avg_15_Jahre.png", dpi=500)
 
 #plot_bw_over_years()
 #plot_ges_and_bw_over_years()
