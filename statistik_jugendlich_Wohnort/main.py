@@ -59,6 +59,7 @@ for row in rows:
         continue
 
     if bundesland == "Ausland" or bundesland == "unbekannt":
+        print(anzahl, bundesland, jahreszahl)
         continue
     anzahl = sum([int(x) for x in row[3:-1]])
     datapoint = DataPoint(bundesland, jahreszahl, anzahl)

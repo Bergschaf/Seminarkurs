@@ -28,11 +28,24 @@ Um aber trotzdem eine Aussage über den Alkoholkonsum von Jugendlichen in Deutsc
 \begin{figure}[h]
     \centering
     \includegraphics[scale=.7]{"assets/Alkohol_Bundesländer_avg_15_Jahre.png"}
-    \caption{Alkoholbedingte Krankenhausaufenthalte von Jugendlichen}
-    \label{fig:1}
+    \caption{Alkoholbedingte Krankenhausaufenthalte von Jugendlichen in Abhängigkeit des Bundeslandes}
+    \label{fig}
 \end{figure}
 
-Es fällt auf, dass die Werte für kleine Bundesländer (Saarland, Hamburg und Berlin) stark abweichen. Das könnte an den geringen Fallzahlen liegen, die dann zu Extremwerten führen. Die absoluten Fallzahlen schwanken im zum Beispiel Saarland über die Jahre von 200 bis knapp 400. Ein weiterer wichtiger Aspekt, der bei der Analyse dieser Daten beachtet werden muss, ist der Länderaustausch von Patienten. (TODO statistik mit wohnort verwenden TODO vergleich von beiden).
+Für die Bevölkerungsanzahlen zur normalisierung der Statistik wurde die Bevölkerung des jeweiligen Bundeslandes zum jeweiligen Zeitpunkt verwendet. (\url{https://www-genesis.destatis.de/genesis//online?operation=table&code=12411-0011&bypass=true&levelindex=0&levelid=1711822317197#abreadcrumb}). Die Werte wurden mit Python berechnet und die Grafik wurde mit der Python Bibliothek Matplotlib (https://matplotlib.org/) erstellt. 
+
+Es fällt auf, dass die Werte für kleine Bundesländer (Saarland, Hamburg und Berlin) stark abweichen. Das könnte an den geringen Fallzahlen liegen, die dann zu Extremwerten führen. Die absoluten Fallzahlen schwanken im zum Beispiel Saarland über die Jahre von 200 bis knapp 400. Ein weiterer wichtiger Aspekt, der bei der Analyse dieser Daten beachtet werden muss, ist der Länderaustausch von Patienten. Das Bundesland, in dem ein Patient behandelt werden muss, muss nicht mit dem Wohnort des Patienten übereinstimmen. Das kann aufgrund der normalisierung der Daten zu einer verfälschung der Ergebnisse führen. Auf GENESIS ist auch eine Statistik verfügbar, die statt dem Ort des Krankenhauses den Wohnort der Patienten angibt (TODO Quelle \url{https://www-genesis.destatis.de/genesis//online?operation=table&code=23131-0003&bypass=true&levelindex=0&levelid=1711819504204#abreadcrumb}).
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[scale=.7]{"assets/Alkohol_Wohnort_avg_15_Jahre.png"}
+    \caption{Alkoholbedingte Krankenhausaufenthalte von Jugendlichen in Abhängigkeit des Wohnortes}
+    \label{fig}
+\end{figure}
+
+\ref{fig:2} wurde mit den gleichen Methoden wie \ref{fig:1} erstellt. Patienten deren Wohnort unbekannt ist und Patienten, die aus dem Ausland kommen wurden ignoriert. 
+
+Die Werte für die meisten größeren Bundesländer sind nahezu gleich geblieben, da dort der Anteil der Patienten, die in einem anderen Bundesland behandelt wurden im vergleich zu den Patienten, die in ihrem Heimatbundesland behandelt wurden sehr klein ist. Die Werte der kleineren Bundesländer (Hamburg, Berlin, Bremen und Saarland) sind dagegen stärker gesunken, vor allem bei Bremen. Dass die hohen Werte im Saarland kein Fehler in der Statistik sind, sondern ein reales Problem darstellen zeigt sich auch in diesem Artikel (TODO Quelle TODO vlt besserer Artikel https://jugendhilfeportal.de/artikel/saarland-zahl-der-wegen-alkoholmissbrauchs-akut-im-krankenhaus-behandelten-jugendlichen-weiter-gestiegen), der das Problem des alkoholmissbrauchs von Jugendlichen im Saarland beschreibt. 
 
 
 
