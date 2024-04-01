@@ -2,3 +2,9 @@
 *.log
 *.dvi
 *.odt#
+*.bbl
+*.out
+*.run.xml
+*.bcf
+*.blg
+.idea/
