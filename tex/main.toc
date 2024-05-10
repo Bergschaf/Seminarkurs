@@ -8,4 +8,4 @@
 \contentsline {subsection}{\numberline {3.1}Prävention}{12}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}Empfehlungen des Gesundheitsministeriums}{12}{subsubsection.3.1.1}%
 \contentsline {subsubsection}{\numberline {3.1.2}Strukturelle Prävention}{13}{subsubsection.3.1.2}%
-\contentsline {subsection}{\numberline {3.2}Verbote}{13}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Verbote}{14}{subsection.3.2}%
