@@ -1,11 +1,13 @@
-\contentsline {section}{\numberline {1}Alkoholkonsum in Baden Württemberg}{1}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Im zeitlichen Verlauf}{1}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Im Vergleich zu anderen Bundesländern}{2}{subsection.1.2}%
-\contentsline {section}{\numberline {2}Eigene Umfrage}{6}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Auswertung}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Fazit}{9}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Problem}{11}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Prävention}{12}{subsection.3.1}%
-\contentsline {subsubsection}{\numberline {3.1.1}Empfehlungen des Gesundheitsministeriums}{12}{subsubsection.3.1.1}%
-\contentsline {subsection}{\numberline {3.2}Verbote}{13}{subsection.3.2}%
-\contentsline {subsubsection}{\numberline {3.2.1}Strukturelle Prävention}{14}{subsubsection.3.2.1}%
+\contentsline {section}{\numberline {1}Gefahren}{1}{section.1}%
+\contentsline {section}{\numberline {2}Alkoholkonsum in Baden Württemberg}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Im zeitlichen Verlauf}{4}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Im Vergleich zu anderen Bundesländern}{5}{subsection.2.2}%
+\contentsline {section}{\numberline {3}Eigene Umfrage}{9}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Auswertung}{10}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Fazit}{13}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Problem}{14}{section.4}%
+\contentsline {section}{\numberline {5}Prävention}{15}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Empfehlungen des Gesundheitsministeriums}{15}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Verbote}{16}{subsection.5.2}%
+\contentsline {subsection}{\numberline {5.3}Strukturelle Prävention}{17}{subsection.5.3}%
+\contentsline {subsection}{\numberline {5.4}Individuelle Prävention}{18}{subsection.5.4}%
