@@ -1,25 +1,25 @@
 \babel@toc {german}{}\relax 
-\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
-\contentsline {section}{\numberline {2}Gefahren \footnotesize {- Lukas}}{1}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Sucht}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Gesallschaftliche Folgen}{2}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Krebs}{3}{subsection.2.3}%
-\contentsline {subsection}{\numberline {2.4}Geschlechterspezifische Auswirkungen}{4}{subsection.2.4}%
-\contentsline {subsection}{\numberline {2.5}Jugendliche}{5}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Fazit}{6}{subsection.2.6}%
-\contentsline {section}{\numberline {3}Alkoholkonsum in Baden Württemberg \footnotesize {- Christian}}{6}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Vergleich zu anderen Bundesländern}{6}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Analyse der Krankenhausstatistik}{8}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Eigene Umfrage \footnotesize {- Lukas}}{11}{section.4}%
-\contentsline {subsection}{\numberline {4.1}Auswertung}{12}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Fazit}{15}{subsection.4.2}%
-\contentsline {section}{\numberline {5}Problem \footnotesize {- Christian}}{16}{section.5}%
-\contentsline {section}{\numberline {6}Prävention \footnotesize {- Christian}}{17}{section.6}%
-\contentsline {subsection}{\numberline {6.1}Empfehlungen des Gesundheitsministeriums}{17}{subsection.6.1}%
-\contentsline {subsection}{\numberline {6.2}Verbote}{18}{subsection.6.2}%
-\contentsline {subsection}{\numberline {6.3}Strukturelle Prävention}{19}{subsection.6.3}%
-\contentsline {subsection}{\numberline {6.4}Individuelle Prävention}{20}{subsection.6.4}%
-\contentsline {section}{\numberline {7}Schlusswort}{21}{section.7}%
-\contentsline {section}{\numberline {8}Abbildungsverzeichnis}{23}{section.8}%
-\contentsline {section}{\numberline {9}Literaturverzeichnis}{23}{section.9}%
-\contentsline {section}{\numberline {10}Anhang}{26}{section.10}%
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {section}{\numberline {2}Gefahren \footnotesize {- Lukas Vogel}}{2}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Sucht}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Gesellschaftliche Folgen}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Krebs}{4}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Geschlechtsspezifische Auswirkungen}{5}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Jugendliche}{6}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Fazit}{7}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Alkoholkonsum in Baden Württemberg \footnotesize {- Christian Krause}}{7}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vergleich zu anderen Bundesländern}{7}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analyse der Krankenhausstatistik}{9}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Eigene Umfrage \footnotesize {- Lukas Vogel}}{12}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Auswertung}{13}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fazit}{16}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Problem \footnotesize {- Christian Krause}}{17}{section.5}%
+\contentsline {section}{\numberline {6}Prävention \footnotesize {- Christian Krause}}{18}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Empfehlungen des Gesundheitsministeriums}{18}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Verbote}{19}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Strukturelle Prävention}{20}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Individuelle Prävention}{21}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Schlusswort}{22}{section.7}%
+\contentsline {section}{\numberline {8}Literaturverzeichnis}{24}{section.8}%
+\contentsline {section}{\numberline {9}Abbildungsverzeichnis}{26}{section.9}%
+\contentsline {section}{\numberline {10}Anhang}{27}{section.10}%
