@@ -4,25 +4,40 @@
 \usepackage[a4paper,top=3cm,bottom=2.5cm,left=3cm,right=4cm,marginparwidth=1.75cm]{geometry}
 \usepackage{tgtermes} % times font
 \usepackage[T1]{fontenc}
+\usepackage[german]{babel}
 \linespread{1.25}
 \usepackage{float}
 \usepackage{hyperref}
 \usepackage{graphicx}
+\usepackage{datetime}
 % IBID???
 \usepackage[pagetracker,notes,backend=biber,doi=false,isbn=false,noibid,short]{biblatex-chicago}
 %\usepackage{blindtext}
 \usepackage{titlesec}
 \usepackage{microtype}
 \usepackage{bookmark}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks,
+    linkcolor={black!50!black},
+    citecolor={blue!50!black},
+    urlcolor={blue!60!black}
+}
 \emergencystretch 10pt
 
 \title{Alkohol - Eine Gefahr für die Jugend in Baden-Württemberg?}
 \bibliography{main}
 \begin{document}
+\pagenumbering{gobble}
+\input{title.tex}
 
-\maketitle
+\clearpage
 \tableofcontents
-
+\clearpage
+\pagenumbering{arabic}
+\section{Einleitung}
+Alkohol ist wichtiger Teil unserer Kultur. Auf vielen oberschwäbischen Festen, wie zum Beispeil Schützen, Öchslefest oder Fasching, wird Alkohol in großen Mengen konsumiert. Auch im Alltag wird von vielen oft Alkohol getrunken, zum Beispiel in Form von einem "Feierabendbier" oder ähnlichem. Vielen sind die tatsächlichen Gefahren von Alkohol aber nicht vollständig bewusst. Oft werden Risiken auch ignoriert oder verhamlost, was für Erwachsene, aber vor allem für Jugendliche eine große Gefahr ist. Daher werden wir uns in dieser Seminararbeit als Erstes mit den Gefahren von Alkohol beschäftigen. Anschließend werden wir den Alkoholkonsum von Jugendlichen in Baden-Württemberg anhand von Statistiken analyiseren. Anhand davon werden wir erörtern inwiefern dieser Konsum problematisch ist und welche möglichen Präventionsmaßnahmen es dagegen gibt.
 \section{Gefahren \footnotesize{- Lukas}} % TODO Einleitung
 % TODO die andere nescure quelle mit dem langen link
 Der Alkohol bringt viele Gefahren mit sich – den meisten Konsumenten sind sie bewusst, aber sie werden dennoch ignoriert und der Alkohol wird in großen Mengen getrunken. 
@@ -118,13 +133,12 @@ Eine paar Optimierung würden wir fürs nächste Mal auch gern treffen. Als erst
 Schlussendlich sind wir aber sehr zufrieden mit dem Ergebnis unserer Umfrage. 
 
 \section{Problem \footnotesize{- Christian}}
-Im ersten Teil haben wir ausführlich erfahren, dass Alkohol vor allem bei Jugendlichen und jungen Erwachsenen sehr schädlich ist. 
+%Im ersten Teil haben wir ausführlich erfahren, dass Alkohol vor allem bei Jugendlichen und jungen Erwachsenen sehr schädlich ist. 
  %(TODO ggf bezug auf zeit)
 In der obigen Analyse von verschiedenen Statistiken haben wir herausgefunden, dass es keine signifikanten Unterschiede zwischen der konsumierten Alkoholmenge in Nord- und Süddeutschland gibt. Insgesamt wird in Deutschland aber sehr viel Alkohol konsumiert, vor allem im weltweiten Vergleich. Laut der WHO wurden in Deutschland 2019 durchschnittlich 12.2 Liter Reinalkohol pro Kopf konsumiert, mehr als doppelt so viel wie der globale Durchschnitt von 5.5 Litern pro Kopf \autocite{noauthor_alcohol_nodate-1}. In Deutschland starben allein 2016 62.000 Menschen an allein auf Alkohol zurückzuführende Todesursachen \autocite{noauthor_alkoholkonsum_nodate}. Dafür bekommt Deutschland von der WHO einen YLL score von 3 von 5 \autocite{noauthor_alcohol-attributable_nodate}. Der YLL (years of life lost) score gibt die durchschnittliche Anzahl an Lebensjahren an, die durch einen vorzeitigen Tod durch eine Krankheit oder andere Todesursache im Vergleich zu der durchschnittlichen Lebenserwartung der Bevölkerung verloren wurde \autocite[1368]{martinez_reflection_2019}. Die WHO gibt mit diesem spezifischen score an, welcher Anteil des YLL scores der jeweiligen Bevölkerung durch Alkohol verursacht wurde. 1 ist hierbei der geringste Anteil, 5 der höchstmögliche.\\
-Ein wichtiger Faktor für diesen hohen Alkoholkonsum ist vermutlich die unkritische Einstellung der Gesellschaft gegenüber Alkohol \autocite{noauthor_alkoholkonsum_nodate}. Das zeigt sich daran, dass weiten Kreisen der Gesellschaft alltäglicher Alkoholkonsum üblich ist, z.B. in Form von einem "Feierabendbier", einem "Verdauungsschnaps" oder einem "Gläschen Wein zur Tagesschau". Auch auf vielen Festen im süddeutschen Raum ist Alkoholkonsum ein wichtiger Aspekt. Das beste Beispiel hierfür ist natürlich das bayrische Oktoberfest, aber auch auf den meisten lokalen Festen wie z.B. Schützen oder dem Öchslefest ist der Alkohol für viele gar nicht wegzudenken. Diese unkritische Einstellung gegenüber von Alkohol fängt natürlich schon bei Jugendlichen an, auf denen auch der Fokus unserer Seminararbeit liegt. Auch in unserer Umfrage haben wir herausgefunden, dass viele Schüler bereits sehr früh mit dem Alkoholkonsum angefangen haben. Auffällig ist auch, dass 88\% aller befragten, die Alkohol konsumieren ihren Alkoholkonsum als durchschnittlich oder unterdurchschnittlich einschätzen und nur 12\% ihren Konsum selbst als überdurchschnittlich einschätzen. In der darauffolgenden Frage sollten die Schüler die Gesundheitlichen Auswirkungen ihres Alkoholkonsums selbst einschätzen. Alle Befragten haben dabei die Gesundheitlichen Auswirkungen höchstens als gering eingeschätzt, lediglich 2 Schüler waren der Meinung dass ihr Alkoholkonsum moderate gesundheitliche Auswirkungen hat. (TODO bezug auf gefahrenteil, ... der konsum der angegeben wurde hat durchaus gesundheitliche auswirkungen)\\
-
+Ein wichtiger Faktor für diesen hohen Alkoholkonsum ist vermutlich die unkritische Einstellung der Gesellschaft gegenüber Alkohol \autocite{noauthor_alkoholkonsum_nodate}. Das zeigt sich daran, dass weiten Kreisen der Gesellschaft alltäglicher Alkoholkonsum üblich ist, z.B. in Form von einem "Feierabendbier", einem "Verdauungsschnaps" oder einem "Gläschen Wein zur Tagesschau". Auch auf vielen Festen im süddeutschen Raum ist Alkoholkonsum ein wichtiger Aspekt. Das beste Beispiel hierfür ist natürlich das bayrische Oktoberfest, aber auch auf den meisten lokalen Festen wie z.B. Schützen oder dem Öchslefest ist der Alkohol für viele gar nicht wegzudenken. Diese unkritische Einstellung gegenüber von Alkohol fängt natürlich schon bei Jugendlichen an, auf denen auch der Fokus unserer Seminararbeit liegt. Auch in unserer Umfrage haben wir herausgefunden, dass viele Schüler bereits sehr früh mit dem Alkoholkonsum angefangen haben. Auffällig ist auch, dass 88\% aller befragten, die Alkohol konsumieren ihren Alkoholkonsum als durchschnittlich oder unterdurchschnittlich einschätzen und nur 12\% ihren Konsum selbst als überdurchschnittlich einschätzen. In der darauffolgenden Frage sollten die Schüler die Gesundheitlichen Auswirkungen ihres Alkoholkonsums selbst einschätzen. Alle Befragten haben dabei die Gesundheitlichen Auswirkungen höchstens als gering eingeschätzt, lediglich 2 Schüler waren der Meinung dass ihr Alkoholkonsum moderate gesundheitliche Auswirkungen hat. Ein Konsum von mehreren Gläsern Alkohol einmal oder mehr pro Woche hat aber durchaus Gesundheitliche Auswirkungen, wie auch schon im Kapitel "Gefahren" diskutiert wurde. Das zeigt, dass die Gefahren von Alkohol auch von Jugendlichen oft unterschätzt werden, was durchaus problematisch ist.\\
 Auch in der obigen Analyse der Krankenhausstatistik haben wir herausgefunden, dass in Deutschland eine signifikante Anzahl an Jugendlichen aufgrund von einer Alkoholintoxikation im Krankenhaus behandelt werden muss. Die Anzahl der Jugendlichen, die große Mengen an Alkohol trinken, deswegen aber nicht im Krankenhaus behandelt werden müssen ist natürlich dementsprechend viel größer, was man auch an unserer Iserv Umfrage erkennen kann. % TODO vlt bissle mehr hier
-Daher beschäftigen wir uns im folgenden mit verschieden Methoden um Jugendliche vor den Gefahren des Alkohols zu beschützen. 
+Daher beschäftigen wir uns im folgenden mit verschieden Methoden um Jugendliche vor den Gefahren des Alkohols zu schützen. 
 
 
 \section{Prävention \footnotesize{- Christian}}
@@ -151,7 +165,7 @@ In der Altersgruppe von 10 bis 15 Jahren konnte das eindeutigste Ergebnis festge
 
 
 \subsection{Individuelle Prävention}
-Ein anderer Ansatz der Prävention ist es, nicht den Alkoholkonsum, sondern dessen Ursachen gezielt und individuell zu bekämpfen. Diesen Ansatz hat eine sehr interessante Studie in London erforscht \autocite{conrod_effectiveness_2013}. Die Teilnehmer, 9. Klässler mit einem Durchschnittsalter von 13.7 Jahren, wurden als erstes anhand der SURPS (Substance Use Risk Profile Scale) Metrik evaluiert.% TODO ggf hier noch mehr (allerdings wieder illegale quelle)
+Ein anderer Ansatz der Prävention ist es, nicht den Alkoholkonsum, sondern dessen Ursachen gezielt und individuell zu bekämpfen. Diesen Ansatz hat eine sehr interessante Studie in London erforscht \autocite{conrod_effectiveness_2013}. Die Teilnehmer, 9. Klässler mit einem Durchschnittsalter von 13.7 Jahren, wurden als erstes anhand der SURPS (Substance Use Risk Profile Scale) Metrik evaluiert.% TODO ggf hier noch mehr (allerdings wieder blede quelle)
 Alle Schüler, die in einer der Subskalen Angstsensitivität, Hoffnungslosigkeit, Impulsivitänt und Sensation Seeking deutlich über dem Mittelwert ihrer Schule lagen, wurden Schüler mit hohem Risiko (HR) eingestuft. Alle anderen, insgesamt ca. 55\%, werden als LR (low Risk) Schüler bezeichnet.\\
 Zu Beginn der Studie nahmen alle HR Schüler an einer Präventionsveranstaltung teil, die von speziell geschulten Lehrern durchgeführt wurde und auf die individuellen Risikofaktoren zugeschnitten war. % TODO genauer sagen woraus die Präventionsmaßnahme besteht   
 Alle Schüler, LR und HR (insgesamt 2643) waren 6, 12, 18 und 24 Monate nach der ersten Intervention dazu aufgefordert an nachfolgenden Evaluationen teilzunehmen. Dabei wurden mit einem Fragebogen Daten über den Alkoholkonsum der Schüler erhoben. Teil des Fragebogens waren auch spezielle Fragen, die sich etwas überschneiden, um die Konsistenz der Antworten zu überprüfen \autocite[335]{conrod_effectiveness_2013}.\\% TODO kagge formuliert 
@@ -160,26 +174,24 @@ Ein weiterer sehr interessanter Effekt war, dass die Prävalenz für riskanten A
 Individuelle Präventionsmaßnahmen sind also eine interessante und wirksame Möglichkeit um riskanten Alkoholkonsum bei Risikogruppen vorzubeugen. Darüber hinaus haben sie offenbar noch weiterführende Effekte, die in zukünftigen Studien weiter erforscht werden könnten.
 
 
+\section{Schlusswort}
+Im ersten Kapitel haben wir herausgefunden, dass Alkoholkonsum, selbst in überschaubaren Mengen, durchaus Gefahren mit sich bringt, die uns vorher nicht bewusst waren. Ein weiteres unerwartetes Ergebnis war, dass der Alkoholkonsum in Baden-Württemberg sowohl insgesamt als auch bei Jugendlichen sehr nahe am Deutschen Durchschnitt liegt. In Deutschland wird im weltweiten Vergleich aber relativ viel Alkohol konsumiert, weshalb der Alkoholkonsum von Jugendlichen in Baden-Württemberg durchaus problematisch ist. Der Alkoholkonsum von Jugendlichen wird zwar stark von der elterlichen Erziehung beeinflusst, aber es gibt auch viele andere Einflüsse, die mit zunehmendem Alter immer stärker werden. Das sind hauptsächlich die Freunde und das soziale Umfeld der Jugendlichen, wozu zum Beispiel auch Sport- und Musikvereine gehören. Wir haben erfahren, dass die entspannte Einstellung gegenüber Alkohol in Deutschland sehr weit verbreitet ist, weshalb weitreichende Verbote vermutlich keine große Wirkung zeigen würden. Erfolgreicher wären vermutlich strukturelle Präventionsmaßnahmen, die die Verfügbarkeit von Alkohol vor allem von Jugendlichen einschränken. Interessant sind auch individuelle Präventionsmaßnahmen, bei denen nicht der riskante Alkoholkonsum selbst, sondern die psychologischen Ursachen bekämpft werden. Da Alkohol aus unserer Gesellschaft für viele kaum wegzudenken ist, ist ein verantwortlicher Alkoholkonsum sehr wichtig. Vor allem Jugendliche sollten sich den Gefahren von Alkohol bewusst sein und diesen nur verantwortlich als Genussmittel und nicht etwa zur Stressbewältigung oder aus Verzweiflung konsumieren.
+
+%TODO Gendern ???
+
+%TODO Buden kann man schlecht mit prävention abdecken
 
 
-TOOD Einleitung
+%TODO bei gefahren: Empfehlungen vom Gesundheitsministerium als quelle (in grün)
 
-TODO zeitliche
-
-TODO definieren riskanter Alkoholkonsum
-
-TODO Gendern ???
-
-TODO Buden kann man schlecht mit prävention abdecken
+%TODO werbung für alkohol; Frustsaufen
 
 
-TODO bei gefahren: Empfehlungen vom Gesundheitsministerium als quelle (in grün)
-
-TODO werbung für alkohol; Frustsaufen
-
-
-TODO anhang mit Quellen ausgedruckt und Umfrage
+%TODO anhang mit Quellen ausgedruckt und Umfrage
 \clearpage
-\section{Liternaturverzeichnis}
+\section{Abbildungsverzeichnis}
+\makeatletter\newcommand{\lofwithouttitle}{\@starttoc{lof}}\makeatother
+\lofwithouttitle
+\section{Literaturverzeichnis}
 \printbibliography[heading=none]
 \end{document}

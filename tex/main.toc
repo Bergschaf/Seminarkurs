@@ -1,20 +1,24 @@
-\contentsline {section}{\numberline {1}Gefahren \footnotesize {- Lukas}}{2}{section.1}%
-\contentsline {subsection}{\numberline {1.1}Sucht}{2}{subsection.1.1}%
-\contentsline {subsection}{\numberline {1.2}Gesallschaftliche Folgen}{3}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Krebs}{4}{subsection.1.3}%
-\contentsline {subsection}{\numberline {1.4}Geschlechterspezifische Auswirkungen}{5}{subsection.1.4}%
-\contentsline {subsection}{\numberline {1.5}Jugendliche}{5}{subsection.1.5}%
-\contentsline {subsection}{\numberline {1.6}Fazit}{7}{subsection.1.6}%
-\contentsline {section}{\numberline {2}Alkoholkonsum in Baden Württemberg \footnotesize {- Christian}}{7}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Vergleich zu anderen Bundesländern}{7}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.2}Analyse der Krankenhausstatistik}{8}{subsection.2.2}%
-\contentsline {section}{\numberline {3}Eigene Umfrage \footnotesize {- Lukas}}{12}{section.3}%
-\contentsline {subsection}{\numberline {3.1}Auswertung}{12}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Fazit}{15}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Problem \footnotesize {- Christian}}{16}{section.4}%
-\contentsline {section}{\numberline {5}Prävention \footnotesize {- Christian}}{18}{section.5}%
-\contentsline {subsection}{\numberline {5.1}Empfehlungen des Gesundheitsministeriums}{18}{subsection.5.1}%
-\contentsline {subsection}{\numberline {5.2}Verbote}{18}{subsection.5.2}%
-\contentsline {subsection}{\numberline {5.3}Strukturelle Prävention}{19}{subsection.5.3}%
-\contentsline {subsection}{\numberline {5.4}Individuelle Prävention}{20}{subsection.5.4}%
-\contentsline {section}{\numberline {6}Liternaturverzeichnis}{23}{section.6}%
+\babel@toc {german}{}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
+\contentsline {section}{\numberline {2}Gefahren \footnotesize {- Lukas}}{1}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Sucht}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Gesallschaftliche Folgen}{2}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.3}Krebs}{3}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.4}Geschlechterspezifische Auswirkungen}{4}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.5}Jugendliche}{5}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.6}Fazit}{6}{subsection.2.6}%
+\contentsline {section}{\numberline {3}Alkoholkonsum in Baden Württemberg \footnotesize {- Christian}}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Vergleich zu anderen Bundesländern}{6}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.2}Analyse der Krankenhausstatistik}{8}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Eigene Umfrage \footnotesize {- Lukas}}{11}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Auswertung}{12}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Fazit}{15}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Problem \footnotesize {- Christian}}{16}{section.5}%
+\contentsline {section}{\numberline {6}Prävention \footnotesize {- Christian}}{17}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Empfehlungen des Gesundheitsministeriums}{17}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Verbote}{18}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Strukturelle Prävention}{19}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Individuelle Prävention}{20}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Schlusswort}{21}{section.7}%
+\contentsline {section}{\numberline {8}Abbildungsverzeichnis}{23}{section.8}%
+\contentsline {section}{\numberline {9}Literaturverzeichnis}{23}{section.9}%
