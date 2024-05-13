@@ -6,13 +6,13 @@
 \contentsline {subsection}{\numberline {2.3}Krebs}{4}{subsection.2.3}%
 \contentsline {subsection}{\numberline {2.4}Geschlechtsspezifische Auswirkungen}{5}{subsection.2.4}%
 \contentsline {subsection}{\numberline {2.5}Jugendliche}{6}{subsection.2.5}%
-\contentsline {subsection}{\numberline {2.6}Fazit}{6}{subsection.2.6}%
+\contentsline {subsection}{\numberline {2.6}Fazit}{7}{subsection.2.6}%
 \contentsline {section}{\numberline {3}Ursachen des Konsums \footnotesize {- Lukas Vogel}}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Buden}{7}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Eltern}{7}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Eltern}{8}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Alkoholkonsum in Baden Württemberg \footnotesize {- Christian Krause}}{8}{section.4}%
 \contentsline {subsection}{\numberline {4.1}Vergleich zu anderen Bundesländern}{8}{subsection.4.1}%
-\contentsline {subsection}{\numberline {4.2}Analyse der Krankenhausstatistik}{9}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Analyse der Krankenhausstatistik}{10}{subsection.4.2}%
 \contentsline {section}{\numberline {5}Eigene Umfrage \footnotesize {- Lukas Vogel}}{13}{section.5}%
 \contentsline {subsection}{\numberline {5.1}Auswertung}{13}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Fazit}{16}{subsection.5.2}%
