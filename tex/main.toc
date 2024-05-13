@@ -17,8 +17,8 @@
 \contentsline {subsection}{\numberline {5.1}Auswertung}{13}{subsection.5.1}%
 \contentsline {subsection}{\numberline {5.2}Fazit}{16}{subsection.5.2}%
 \contentsline {section}{\numberline {6}Problem \footnotesize {- Christian Krause}}{17}{section.6}%
-\contentsline {section}{\numberline {7}Prävention \footnotesize {- Christian Krause}}{18}{section.7}%
-\contentsline {subsection}{\numberline {7.1}Empfehlungen des Gesundheitsministeriums}{18}{subsection.7.1}%
+\contentsline {section}{\numberline {7}Prävention \footnotesize {- Christian Krause}}{19}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Empfehlungen des Gesundheitsministeriums}{19}{subsection.7.1}%
 \contentsline {subsection}{\numberline {7.2}Verbote}{19}{subsection.7.2}%
 \contentsline {subsection}{\numberline {7.3}Strukturelle Prävention}{20}{subsection.7.3}%
 \contentsline {subsection}{\numberline {7.4}Individuelle Prävention}{21}{subsection.7.4}%
