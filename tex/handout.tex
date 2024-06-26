@@ -1,11 +1,22 @@
 \documentclass[12pt]{article}
 
-\usepackage[german]{babel}
+
+\PassOptionsToPackage{hyphens}{url}\usepackage{hyperref}\usepackage{breakurl}
 \usepackage{datetime}
 \usepackage{enumitem}
-\setenumerate{label=(\roman*),itemsep=2pt,topsep=2pt}
+\setitemize{itemsep=1pt,topsep=1pt}
+
+\usepackage{titlesec}
+\usepackage{lipsum}% just to generate text for the example
+
+\titlespacing*{\section}
+{0pt}{1.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+\titlespacing*{\subsection}
+{0pt}{5.5ex plus 1ex minus .2ex}{4.3ex plus .2ex}
+
+
 %\setlist{nosep}
-\usepackage[a4paper,top=2cm,bottom=2cm,left=3cm,right=4cm,marginparwidth=1.75cm]{geometry}
+\usepackage[a4paper,top=2cm,bottom=2cm,left=2.5cm,right=2.5cm,marginparwidth=1.75cm]{geometry}
 
 \begin{document}
 \title{Alkohol}
@@ -26,7 +37,7 @@
         %\vspace{cm}
         %\vfill
         %\includegraphics[width=0.2\textwidth]{assets/gymox.png}
-        \contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
+\contentsline {section}{\numberline {1}Einleitung}{2}{section.1}%
 \contentsline {section}{\numberline {2}Gefahren \footnotesize {- Lukas Vogel}}{2}{section.2}%
 \contentsline {subsection}{\numberline {2.1}Sucht}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}Gesellschaftliche Folgen}{4}{subsection.2.2}%
@@ -53,7 +64,7 @@
 \contentsline {section}{\numberline {9}Anhang}{25}{section.9}%
 \contentsline {subsection}{\numberline {9.1}Literaturverzeichnis}{26}{subsection.9.1}%
 \contentsline {subsection}{\numberline {9.2}Abbildungsverzeichnis}{28}{subsection.9.2}%
-        \large
+        %2\large
         \vspace{2cm}
         Seminarkurs von Frau Titze 2023/2024\\
         Gymnasium Ochsenhausen\\
@@ -68,15 +79,27 @@
 
  \section*{Gefahren}
  \begin{itemize}
-    \item 
+    \item Sucht: psychisch und physisch
+    \item Gesellschaftlich: Verlust von sozialen Verhaltensweisen
+    \item Krebs: In Europa sind über 200 Mio. Menschen bedroht, durch Alkoholkonsum an Krebs zu erkranken
+    \item Geschlechtsspezifisch
+        \begin{itemize}[nosep]
+            \item Frauen: Folgen für das Kind bei einer Schwangerschaft
+            \item Männer: Störungen des Denkens im Alter
+        \end{itemize}
+    \item Jugendliche: Fehlbildungen im Hippocampus
  \end{itemize}
 
  \section*{Ursachen des Konsums}
+ \begin{itemize}
+    \item Buden: Alkohol wird auch an Jugendliche unter dem Mindestalter in großen Mengen ausgeschenkt 
+    \item Eltern: Manche Eltern haben eine sehr unkritische Einstellung zu Alkohol
+ \end{itemize}
 
  \section*{Daten}
  \begin{itemize}
-    \item Die Trinkmenge und der riskante Konsum ist in den nördlichen und südlichen Bundesländern ungefähr gleich
-    \item Jährlich werden Deutschlandweit durchschnittlich ca. 26 Jugendliche pro 100.000 Einwohner mit einer Alkoholintoxikation im Krankenhaus behandelt
+    \item Die Trinkmenge und der riskante Konsum sind in den nördlichen und südlichen Bundesländern ungefähr gleich
+    \item Jährlich werden deutschlandweit durchschnittlich ca. 26 Jugendliche pro 100.000 Einwohner mit einer Alkoholintoxikation im Krankenhaus behandelt
     \item Baden-Württemberg liegt in dieser Statistik leicht über dem Bundesdurchschnitt, Saarland und Bayern sind an der Spitze
  \end{itemize}
  
@@ -91,10 +114,22 @@
  \section*{Präventionsmaßnahmen}
  \begin{itemize}
     \item Verbote sind oft nicht effektiv, da sie leicht umgangen werden können und wenig Rückhalt in der Gesellschaft haben
-    \item Strukturelle Präventionsmaßnahmen verringern Angebot und Nachfrage von Alkohol z.B. durch höhere Steuern oder örtliche und zeitliche Verkaufseinschränkungen $\rightarrow$ sehr effektiv
-    \item Individuelle Präventionsmaßnahmen versuchen die Ursachen für Alkoholkonsum bei Risikoschülern durch personalisierte Interventionen zu bekämpfen $\rightarrow$ auch bei Nicht-Risikoschülern effektiv
+    \item Strukturelle Präventionsmaßnahmen verringern Angebot und Nachfrage von Alkohol, z.B. durch höhere Steuern oder örtliche und zeitliche Verkaufseinschränkungen $\rightarrow$ sehr effektiv
+    \item Individuelle Präventionsmaßnahmen versuchen, die Ursachen für Alkoholkonsum bei Risikoschülern durch personalisierte Interventionen zu bekämpfen $\rightarrow$ auch bei Nicht-Risikoschülern effektiv
+\end{itemize}
+\clearpage
+\section*{Quellen der Präsentation}
+\begin{itemize}
+    \item \url{https://www.oktoberfest.de/informationen/termine/eroeffnung-und-anstich-des-oktoberfests}
+    \item \url{https://www.schwaebische.de/regional/biberach/laupheim/zehn-von-zwoelf-laupheimer-geschaefte-verkaufen-alkohol-an-jugendliche-testperson-1834461}
+    \item \url{https://www.schwaebische.de/regional/biberach/biberach/schuetzenfest-polizei-erwischt-jugendliche-mit-alkohol-und-haschisch-772222}
+    \item \url{https://www.tagesschau.de/wissen/who-alkoholkonsum-100.html}
+    \item \url{https://www.ju-bib.de/de/Buden}
+    \item \url{https://www.schwaebische.de/regional/biberach/biberach/das-wichtigste-zum-biberacher-schuetzenfest-2024-im-uberblick-2589533}
+    \item \url{https://www.futura-sciences.com/de/wp-content/uploads/2022/04/alkohol-und-alkoholische-getranke-historisches-und-wissenswertes.jpg}
+    \item Kraus, Ludwig, R. Augustin, Kim Bloomfield und A. Reese. “Der Einfluss regionaler Unterschiede im Trinkstil auf riskanten Konsum, exzessives Trinken, Missbrauch und Abhängigkeit”. Gesundheitswesen 63 (1. Dezember 2001)
 \end{itemize}
 
- \section*{Quellen}
+
 
 \end{document}
