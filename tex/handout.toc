@@ -1,1 +1,7 @@
 \babel@toc {german}{}\relax 
+\contentsline {section}{Gefahren}{1}{Doc-Start}%
+\contentsline {section}{Ursachen des Konsums}{1}{Doc-Start}%
+\contentsline {section}{Daten}{1}{Doc-Start}%
+\contentsline {section}{Problem}{2}{Doc-Start}%
+\contentsline {section}{Präventionsmaßnahmen}{2}{Doc-Start}%
+\contentsline {section}{Quellen}{2}{Doc-Start}%
